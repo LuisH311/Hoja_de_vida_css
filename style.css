@@ -1,0 +1,240 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #efefef;
+}
+.Container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 0px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.imagen{
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 5px;
+    
+}
+h3{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 255, 255);
+    
+}
+
+/* ------------------------------------------------------INICIO COLUMNA 1-------------------------------------------------------- */
+
+.Columna1{
+    background-color: rgb(15, 25, 46);
+    color: white;
+    
+}
+
+.button{
+    padding-left: 30px;
+}
+
+/* -------------------------------------------------------Iconos------------------------------------------------------------- */
+li{
+    display: flex;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+#icon1{
+    margin-left: 88px;
+}
+
+#ico2{
+    margin-left: 62px;
+    
+}
+
+#ico3{
+    margin-left: 26px;
+}
+#ico4{
+    margin-left: 55px;
+}
+
+#ico5{
+    margin-left: 10px;
+}
+
+#ico6{
+    margin-left: 73px;
+}
+#ico7{
+    margin-left: 103px;
+}
+
+#ico8{
+    margin-left: 117px;
+}
+
+#ico9{
+    margin-left: 98px;
+}
+
+
+
+/* ----------------------------------------------------------BOTON DE HOBBIES-------------------------------------------------------------------------- */
+
+.containericonos{
+    display: flex;
+    justify-content: center;
+}
+
+#iconos{
+    padding: 20px;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 2px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+#iconos1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 2px;
+   
+
+
+}
+#iconos2{
+    padding: 20px;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 2px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+#iconos3{
+    padding: 20px;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 2px;
+   /*  display: flex;
+    flex-direction: column; */
+
+}
+
+/* ----------------------------------------------------FIN BOTON HOBBIES--------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------FIN ICONOS--------------------------------------------------------------------- */
+
+h3{
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* ----------------------------------------------------FIN COLUMNA 2--------------------------------------------------------------------- */
+/* -------------------------------------------------------- COLUMNA 2--------------------------------------------------------------------------- */
+
+.Columna2{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+
+}
+.apellido{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+/* ------------------------------------------------------------------------SUBTITULOS-------------------------------------------------------------- */
+#profesion{
+    width: 43%;
+    border-radius: 40px;
+    text-align: center;
+    background-color:  rgb(15, 25, 46);
+    color: white;
+    border: 1px solid;
+}
+.informacion{
+    padding-left: 10px;
+    padding-right: 50px;
+}
+.subtitulos{
+    width: 50%;
+    border-radius: 30px;
+    text-align: center;
+    background-color:  rgb(15, 25, 46);
+    color: white;
+    border: 1px solid
+}
+/* ------------------------------------------------------------------------Lista EDUCACION-------------------------------------------------------------- */
+.educacion{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.subtitulos1{
+    width: 25%;
+    border-radius: 40px;
+    text-align: center;
+    background-color:  rgb(15, 25, 46);
+    color: white;
+    border: 1px solid
+}
+.subtitulos2{
+    width: 25%;
+    border-radius: 80px;
+    text-align: center;
+    background-color:  rgb(15, 25, 46);
+    color: white;
+    border: 1px solid
+}
+/* ----------------------------------------------------FIN SUBTITULOS ------------------------------------------------------------------------------------- */
+
+/* li{
+    padding-top: 20px;
+    padding-left: 10px;
+} */
+.agregado{
+    margin-left: 40px;
+
+}
+
+.agregado1{
+    margin-left: 42px;
+    
+}
+.agregado2{
+    margin-left: 42px;
+}
+.agregado3{
+    margin-left: 38px;
+}
+
+.experiencia{
+    margin-left: 84px;
+}
+
+.años{
+    padding-top: 20px;
+    padding-left: 10px;
+   
+}
+
+/* ----------------------------------------------------FIN COLUMNA 2--------------------------------------------------------------------- */
